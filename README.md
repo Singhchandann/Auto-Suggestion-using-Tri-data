@@ -3,6 +3,20 @@
 ## Overview
 This project provides an advanced case-insensitive name auto-suggestion system using a Trie data structure and a Tkinter-based graphical user interface (GUI). It also offers spelling correction using the Levenshtein distance algorithm.
 
+## Structure
+
+name-autocomplete/  
+├── data/  
+│   └── unique_name.txt  
+├── src/  
+│   ├── trie.py  
+│   ├── spell_corrector.py  
+│   └── gui.py  
+├── README.md  
+├── requirements.txt  
+└── app.py  
+
+
 ## Features
 - **Fast Auto-Suggestions**: Powered by a Trie data structure.
 - **Spelling Correction**: Helps fix minor typing errors.
